@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1 0">
+    <title>Portfolio - Arghya Ghosh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <div class="m-0 p-0 select-none overflow-x-hidden">
+
+        <!-- Navbar -->
+        <div class="navbar bg-orange-600 text-white z-50">
+          <p class="text-2xl font-semibold"><span class='text-3xl md:text-4xl'>A</span>rghya Ghosh</p>
+            <button class="toggle-btn text-" onclick="toggleMenu()">Menu</button>
+            <div class="menu">
+              <ul>
+                <li><a href="#Hero" onclick="slide()">Home</a></li>
+                <li><a href="#projects" onclick="slide()">Project</a></li>
+                <li><a href="#About"  onclick="slide()">About</a></li>
+                <li><a href="https://github.com/Swuizer/My-Resume/blob/master/Arghya_Resume.pdf" target="_blank"  onclick="slide()">Resume</a></li>
+                <li><a href="#footer"  onclick="slide()">Contact Me</a></li>
+              </ul>
+            </div>
+        </div>
+
+        <!-- Hero Section -->
+        <div id="Hero" class="w-full h-full flex flex-col text-black md:flex-row mb-36 md:mb-0 -z-10">
+          <div class="relative w-screen h-screen flex flex-col md:flex-row">
+            <!-- Left Side -->
+                <div class='bg-white text-black w-screen h-full'>
+                  <div class="absolute h-full flex flex-col justify-center left-5 md:left-32 gap-y-10">
+                            <div class="text-2xl md:text-4xl">Hi,   👋<br/>
+                              My Name Is,
+                              <span class="text-orange-500">Arghya Ghosh</span></div>
+                                    <!-- text-lime-200 -->
+                            <div class=" w-full text-2xl md:text-5xl text-left text-amber-300">
+                                And I'm a
+                                <span class='role'></span>
+                            </div>
+
+                            <!-- Paragraph -->
+                            <div class="w-11/12 md:w-[60%] text-lg md:text-xl">
+                                I’m a software developer and here is my portfolio website. Here you’ll
+                                learn about my journey as a software developer.
+                            </div>
+                            <!-- Button -->
+                            <div class="text-2xl text-orange-500 bg-slate-100 inline w-fit scale-105 shadow-md cursor-pointer py-2 px-4 mb-10 md:mb-0 rounded-md
+                            hover:border-slate-200 hover:bg-slate-200 hover:shadow-md  transition-all duration-200 z-10
+                            "><a href="mailto:arghya143ghosh@gmail.com">Hire me</a></div>
+                  </div>
+                </div>
+            
+            <!-- Right Part -->
+                <div class='relative w-screen h-full mb-10 md:mb-0'>
+                    <!-- Image -->
+                    <div class='absolute w-[250px] h-[250px] bg-gray-200
+                        top-[200px] right-[18vw] rounded-full'>
+                            <div class="absolute flex justify-center items-center left-11 top-9">
+                                <img src="./images/userAsset/userImg.jpg" alt="" height="160px" width="160px" class="rounded-3xl " />
+                            </div>
+                    </div>
+                </div>
+          </div>
+        </div>
+
+        <!-- About & Project Section -->
+        <div class="mt-8 bg-[rgb(231,231,231)] -z-10">
+
+          <!-- About Section -->
+          <div id="About" class="max-w-[1280px] w-11/12 flex flex-col md:flex-row gap-4 items-center md:justify-between mx-auto my-10">
+              <h2 class="text-orange-700 text-3xl md:text-6xl w-[60%] font-semibold">
+              <span class="text-orange-700 text-4xl md:text-8xl">M</span>e and
+              <br />
+              MyTech Stack
+              </h2>
+
+              <div class="flex flex-col w-[90%] md:w-[70%] text-gray-700 text-base tracking-widest md:mt-10 gap-y-5">
+              <p>
+                  Hi Everyone My name is Arghya Ghosh. I am a React.js, Frontend Developer. 
+                  Currently I am learning MERN Stack Web Development and Try to Making Beautiful 
+                  website. And I am also ready to take New challenges, because its improve me and 
+                  made me better then yesterday.
+              </p>
+              <p>
+                  Professionally, I'm a freshers and I enjoy taking problems and turning them into simple and 
+                  beautiful interface designs. I love programming and always strive for the newest technologies.
+              </p>
+              </div>
+          </div>
+
+          <!-- Project Section -->
+          <div id="projects" class="relative">
+          <!-- Header -->
+              <h2 class="w-full text-center text-5xl md:text-8xl text-orange-700 md:mt-7">Projects</h2>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[1280px] mx-auto w-11/12 mt-10 items-center md:p-10 gap-4 projectBox">
+
+                  <div class="w-full flex flex-col items-center bg-slate-50 border-2  p-6 m-3 rounded-md gap-y-3 hover:drop-shadow-2xl hover:scale-105 transition-all duration-200">
+                      <img src="images/projects/Project1.1.png" alt="" height="350px" width="350px" loading="lazy">
+                      <p class="flex justify-between w-11/12 max-w-full text-xl text-slate-900 font-semibold mt-1">Plan With Love <span class="text-green-500 text-right w-[50%] text-sm">React Project</span></p>
+                      <div class="flex justify-start w-11/12 max-w-full gap-x-4">
+                          <a href="#projects"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">GitHub Link</div></a>
+                          <a href="https://tours23.netlify.app/" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">Live Link</div></a>
+                      </div>
+                  </div>
+                  <div class="w-full flex flex-col items-center bg-slate-50 border-2 p-6 m-3 rounded-md gap-y-3 hover:drop-shadow-2xl hover:scale-105 transition-all duration-200">
+                      <img src="images/projects/Project2.2.png" alt="" height="350px" width="350px" loading="lazy">
+                      <p class="flex justify-between w-11/12 max-w-full text-xl text-slate-900 font-semibold mt-1">Top Courses <span class="text-green-500 text-right w-[50%] text-sm">React Project</span></p>
+                      <div class="flex justify-start w-11/12 max-w-full gap-x-4">
+                          <a href="#projects"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">GitHub Link</div></a>
+                          <a href="https://course23.netlify.app/" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">Live Link</div></a>
+                      </div>
+                  </div>
+                  <div class="w-full flex flex-col items-center bg-slate-50 border-2  p-6 m-3 rounded-md gap-y-3 hover:drop-shadow-2xl hover:scale-105 transition-all duration-200">
+                      <img src="images/projects/Project3.3.png" alt="" height="350px" width="350px" loading="lazy">
+                      <p class="flex justify-between w-11/12 max-w-full text-xl text-slate-900 font-semibold mt-1 ">Our Testimonials <span class="text-green-500 text-right w-[50%] text-sm">React Project</span></p>
+                      <div class="flex justify-start w-11/12 max-w-full gap-x-4">
+                          <a href="#projects"><div class="bg-orange-500 py-3 px-4  rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">GitHub Link</div></a>
+                          <a href="https://testimonial23.netlify.app/" target="_blank"><div class="bg-orange-500 py-3 px-4  rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">Live Link</div></a>
+                      </div>
+                  </div>
+                  <div class="w-full flex flex-col items-center bg-slate-50 border-2 p-6 m-3 rounded-md gap-y-3 hover:drop-shadow-2xl hover:scale-105 transition-all duration-200">
+                      <img src="images/projects/Project4.4.png" alt="" height="350px" width="350px" loading="lazy">
+                      <p class="flex justify-between w-11/12 max-w-full text-xl text-slate-900 font-semibold mt-1">Dev Detective <span class="text-green-500 text-right w-[50%] text-sm">JavaScript Project</span></p>
+                      <div class="flex justify-start w-11/12 max-w-full gap-x-4">
+                          <a href="#projects"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">GitHub Link</div></a>
+                          <a href="https://dev23.netlify.app/" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">Live Link</div></a>
+                      </div>
+                  </div>
+                  <div class="w-full flex flex-col items-center bg-slate-50 border-2 p-6 m-3 rounded-md gap-y-3 hover:drop-shadow-2xl hover:scale-105 transition-all duration-200">
+                      <img src="images/projects/Project5.5.png" alt="" height="350px" width="350px" loading="lazy">
+                      <p class="flex justify-between w-11/12 max-w-full text-xl text-slate-900 font-semibold mt-1">Weather App <span class="text-green-500 text-right w-[50%] text-sm">JavaScript Project</span></p>
+                      <div class="flex justify-start w-11/12 max-w-full gap-x-4">
+                          <a href="https://github.com/Swuizer/Weather-App" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">GitHub Link</div></a>
+                          <a href="https://weather3a.netlify.app/" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">Live Link</div></a>
+                      </div>
+                  </div>
+                  <div class="w-full flex flex-col items-center bg-slate-50 border-2 p-6 m-3 rounded-md gap-y-3 hover:drop-shadow-2xl hover:scale-105 transition-all duration-200">
+                      <img src="images/projects/Project6.6.png" alt="" height="350px" width="350px" loading="lazy">
+                      <p class="flex justify-between w-11/12 max-w-full text-xl text-slate-900 font-semibold mt-1">Password Generator <span class="text-green-500 text-right w-[40%] text-sm">JavaScript Project</span></p>
+                      <div class="flex justify-start w-11/12 max-w-full gap-x-4">
+                          <a href="https://github.com/Swuizer/PasswordGenerator" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">GitHub Link</div></a>
+                          <a href="https://pass23.netlify.app/" target="_blank"><div class="bg-orange-500 py-3 px-4 rounded-md hover:shadow-md hover:scale-105 transition-all duration-200">Live Link</div></a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <!-- bg-[#343d68] -->
+        <footer id="footer" >
+          <div class=" bg-slate-600 p-[5rem] -z-10">
+            <div class="flex flex-col md:flex-row justify-between w-11/12 max-w-[1280px] mx-auto">
+              <div class="absolute hidden md:block left-14 text-6xl text-slate-500 mt-8">Arghya Ghosh</div>
+
+              <div class="flex justify-center text-white gap-x-4 mb-5">
+                <div>
+                  <a href="#Hero" class="hover:text-orange-600 transition-all duration-200">Home</a>
+                </div>
+                <div>
+                  <a href="#projects" class="hover:text-orange-600 transition-all duration-200">Projects</a>
+                </div>
+                <div>
+                  <a href="#About" class="hover:text-orange-600 transition-all duration-200">About</a>
+                </div>
+                <div>
+                  <a href="#footer" class="hover:text-orange-600 transition-all duration-200">Contact Me</a>
+                </div>
+              </div>
+
+              <div class="relative flex justify-center gap-x-4 items-baseline z-10">
+                <a href="https://www.linkedin.com/in/arghya-ghosh-b611b0232/" class="text-4xl text-white cursor-pointer hover:text-blue-600 hover:scale-105 hover:shadow-md transition-all duration-200" target="_blank"><i class="fa-brands fa-linkedin icon"></i></a>
+                <a href="https://github.com/Swuizer" class="text-4xl text-white cursor-pointer hover:text-purple-500 hover:scale-105 hover:shadow-md transition-all duration-200" target="_blank"><i class="fa-brands fa-github icon"></i></a>
+                <a href="https://www.instagram.com/arghya5071/" class="text-4xl text-white cursor-pointer hover:text-rose-600 hover:scale-105 hover:shadow-md transition-all duration-200" target="_blank"><i class="fa-brands fa-instagram icon"></i></a>
+                <a href="mailto:arghya143ghosh@gmail.com" class="text-4xl text-white cursor-pointer hover:text-red-500 hover:scale-105 hover:shadow-md transition-all duration-200"><i title="arghya143ghosh@gmail.com" class="fa-regular fa-envelope icon"></i></a>
+                <p class="absolute text-slate-400 mt-12 text-center w-full tracking-widest font-semibold border-t-2 border-slate-400">Contact Me</p>
+              </div>
+              <!-- Mobile Section -->
+              <div class="relative text-center visible md:hidden left-[-0.5rem] bottom-[-52px] md: text-2xl text-slate-500">Arghya Ghosh</div>
+            </div>
+          </div>
+          <div class="flex justify-center bg-black text-white p-2"> Created by&nbsp;<a href="https://www.linkedin.com/in/arghya-ghosh-b611b0232/" target="_blank" class="text-orange-500 hover:underline"> Arghya Ghosh&nbsp;</a> © All right reserved! </div>
+        </footer>
+      </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+    <script>
+        var typeData = new Typed(".role", {
+      strings: [
+        "Web Developer",
+        "React.js Developer",
+        "Coder",
+      ],
+      loop: true,
+      typeSpeed: 100,
+      backSpeed: 80,
+      backDelay: 1000,
+    });
+    
+    function toggleMenu() {
+        var menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+    }
+    function slide(){
+      let slice = document.querySelector('.menu');
+      slice.classList.remove('active');
+    }
+    </script>
+</body>
+</html>
